@@ -96,6 +96,7 @@ function initApp() {
   logNumbers();
   logTeachers();
   teachersOver40();
+  forOfSearchTeachersByName("sen");
 }
 
 // ========== forEach ========== //
@@ -179,6 +180,9 @@ function teachersOver40() {
     }
   }
   console.log(results);
+}
+function forOfSearchTeachersByName(searchValue) {
+  console.log(searchValue);
 }
 
 // ========== for in loop ========== //
